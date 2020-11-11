@@ -5,7 +5,7 @@ const Gallery = ({ imgs }) => {
   const images = imgs.sort(() => 0.5 - Math.random())
   return (
     <div className="masonry">
-      {imgs.map((img, index) => {
+      {images.map((img, index) => {
         return (
           <Img
             className="brick"
